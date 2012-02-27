@@ -35,8 +35,8 @@
 				  <a class="brand" href="../index.html">rglab</a>
 				  <div class="nav-collapse">
 					  <ul class="nav">
-						  <li class="active"><a href="#about"><i class="icon-home icon-white"></i> Home</a></li>
-						  <li><a href="./research.html"><i class="icon-pencil icon-white"></i> Research</a></li>
+						  <li><a href="./index.html"><i class="icon-home icon-white"></i> Home</a></li>
+						  <li class="active"><a href="./research.html"><i class="icon-pencil icon-white"></i> Research</a></li>
 						  <li><a href="#about"><i class="icon-book icon-white"></i> Publications</a></li>
 						  <li><a href="#about"><i class="icon-cog icon-white"></i> Software</a></li>
 						  <li><a href="#about"><i class="icon-user icon-white"></i> Members</a></li>
@@ -53,8 +53,8 @@
 
 	  <div class="container">
 		  <!-- Masthead ================================================== -->
-		  <header class="jumbotron subhead" id="home">
-			  <h1><a href="http://www.rglab.org" rel="tooltip" title="Raphael Gottardo's Research Lab">rglab</a>::home</h1>
+		  <header class="jumbotron subhead" id="research">
+			  <h1><a href="http://www.rglab.org" rel="tooltip" title="Raphael Gottardo's Research Lab">rglab</a>::research</h1>
 			  <p class="lead">Raphael Gottardo's Research Lab</p>
 		  </header><!-- /header -->
 	  </div><!-- /container -->
@@ -63,67 +63,37 @@
 		  <div class="row">				
 			  <div class="span12">
 				  <div class="well">														
-					  <h2>About us</h2>
 					  We are part of the Vaccine and Infectious Disease Division of the <a href="http://www.fhcrc.org">Fred Hutchinson Cancer Research Center</a> in Seattle.
 					  We develop cutting edge statistical methods and software tools for the analysis of high throughput biological data with 
 					  an emphasis on data issued on immuology and vaccine research. 
 					  We collaborate with biologists accross a wide range of to apply of methods and tools ...						
-				  </div><!-- /row -->
+				  </div><!-- /well -->				  
 			  </div><!-- /span -->
-		  </div><!-- /well -->
-	  </div><!-- /container -->
-
-	  <div class="container">
-		  <div class="row">					
-			  <div class="span3 columns">
-				  <h2>Twitter feed</h2>
-				  <div id="tweets">
-					  <script src="./utils/js/jquery.js"></script>
-					  <script type="text/javascript" src="./utils/js/jquery.tweetable.js"></script>
-					  <script type="text/javascript">
-						  $(function(){
-							  $('#tweets').tweetable({username: 'raphg', time: true, limit: 5, replies: true, position: 'append'});
-						  });
-					  </script>
-					  <!--[if IE 6]>
-						  <script type='text/javascript' src='./utils/js/dd_belated_png.js'></script>
-						  <script>DD_belatedPNG.fix('.png');</script>
-						  <![endif]-->
-					  </div> <!-- /tweets -->
-				  </div> <!-- /span -->
-				  <div class="span9 columns">
-					  <div id="myCarousel" class="carousel slide">
-						  <div class="carousel-inner">
-							  <div class="item active">
-								  <img src="./utils/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
-								  <div class="carousel-caption">
-									  <h4>First Thumbnail label</h4>
-									  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								  </div>
-							  </div>
-							  <div class="item">
-								  <img src="./utils/assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
-								  <div class="carousel-caption">
-									  <h4>Second Thumbnail label</h4>
-									  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								  </div>
-							  </div>
-							  <div class="item">
-								  <img src="./utils/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
-								  <div class="carousel-caption">
-									  <h4>Third Thumbnail label</h4>
-									  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								  </div>
-							  </div>
+			  <div class="span12">			 
+				  <h3>Research topics</h3>
+				  Please use the tab navigation below to learn more about our research. 
+				  <div class="tabbable" style="margin-bottom: 9px;">
+					  <ul class="nav nav-tabs">
+						  <li class="active"><a href="#1" data-toggle="tab">Cytometry</a></li>
+						  <li><a href="#2" data-toggle="tab">Peptide microarrays</a></li>
+						  <li><a href="#3" data-toggle="tab">Epigenomics</a></li>
+						  <li><a href="#4" data-toggle="tab">Statistical Computing</a></li>
+					  </ul>
+					  <div class="tab-content">
+						  <div class="tab-pane active" id="1">
+							  <p>I'm in Section 1.</p>
 						  </div>
-						  <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-						  <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+						  <div class="tab-pane" id="2">
+							  <p>Howdy, I'm in Section 2.</p>
+						  </div>
+						  <div class="tab-pane" id="3">
+							  <p>What up girl, this is Section 3.</p>
+						  </div>
 					  </div>
-				  </div><!-- /span -->
+				  </div> <!-- /tabbable -->			  
 			  </div><!-- /span -->
 		  </div><!-- /row -->
-	  </div><!-- /container -->
-		  
+	  </div><!-- /container -->		  
 		
 	  <div class="container">
 		  <div class="row">																

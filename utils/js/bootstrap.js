@@ -607,7 +607,7 @@
 
 }( window.jQuery );
 /* ===========================================================
- * bootstrap-tooltip.js v2.0.1
+ * bootstrap-.js v2.0.1
  * http://twitter.github.com/bootstrap/javascript.html#tooltips
  * Inspired by the original jQuery.tipsy by Jason Frame
  * ===========================================================
