@@ -35,7 +35,7 @@
 				  <a class="brand" href="../index.html">rglab</a>
 				  <div class="nav-collapse">
 					  <ul class="nav">
-						  <li class="active"><a href="#about"><i class="icon-home icon-white"></i> Home</a></li>
+						  <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
 						  <li><a href="./research.html"><i class="icon-pencil icon-white"></i> Research</a></li>
 						  <li><a href="#about"><i class="icon-book icon-white"></i> Publications</a></li>
 						  <li><a href="#about"><i class="icon-cog icon-white"></i> Software</a></li>
@@ -43,8 +43,9 @@
 						  <li><a href="#about"><i class="icon-exclamation-sign icon-white"></i> Jobs</a></li>
 						  <li><a href="#contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
 					  </ul>
-					  <form class="navbar-search pull-right">
-						  <input type="text" class="search-query" placeholder="Search">
+					  <form class="navbar-search pull-right" action="http://google.com/search" method="get">
+					      <input type="hidden" name="q" value="site:rglab.org" />						  
+						  <input type="text" class="search-query" type="text" name="q" results="0" placeholder="Search" />
 					  </form>
 				  </div><!--/.nav-collapse -->		  
 			  </div>
@@ -76,7 +77,9 @@
 	  <div class="container">
 		  <div class="row">					
 			  <div class="span3 columns">
-				  <h2>Twitter feed</h2>
+				  <div class="marketing">				  
+			      <img class="small-bs-icon" src="utils/img/icon-twitter.png">				  
+				  <h3>Twitter feed</h3>				  
 				  <div id="tweets">
 					  <script src="./utils/js/jquery.js"></script>
 					  <script type="text/javascript" src="./utils/js/jquery.tweetable.js"></script>
@@ -90,6 +93,7 @@
 						  <script>DD_belatedPNG.fix('.png');</script>
 						  <![endif]-->
 					  </div> <!-- /tweets -->
+					  </div>
 				  </div> <!-- /span -->
 				  <div class="span9 columns">
 					  <div id="myCarousel" class="carousel slide">
@@ -102,14 +106,14 @@
 								  </div>
 							  </div>
 							  <div class="item">
-								  <img src="./utils/assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+								  <img src="./utils/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
 								  <div class="carousel-caption">
 									  <h4>Second Thumbnail label</h4>
 									  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 								  </div>
 							  </div>
 							  <div class="item">
-								  <img src="./utils/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+								  <img src="./utils/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
 								  <div class="carousel-caption">
 									  <h4>Third Thumbnail label</h4>
 									  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
